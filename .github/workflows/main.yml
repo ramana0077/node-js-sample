@@ -1,0 +1,35 @@
+name: CI/CD Pipeline
+
+on: push
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout Code
+
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+
+        run: npm install
+
+      - name: Run Tests
+
+        run: npm test
+
+     - name: Build Docker Image
+
+        run: docker build -t 8978359807/Sample
+
+      - name: Push Docker Image
+
+        run: |
+
+          echo "${{ ^kedHDFDQZ/Cj3A }}" | docker login -u "${{ 8978359807 }}" --password-stdin
+
+          docker push 8978359807/Sample
