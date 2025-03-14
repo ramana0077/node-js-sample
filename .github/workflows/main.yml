@@ -18,5 +18,5 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          echo "${{ ^kedHDFDQZ/Cj3A }}" | docker login -u "${{ 8978359807 }}" --password-stdin
+          echo "${{ Ramana@007 }}" | docker login -u "${{ 8978359807 }}" --password-stdin
           docker push 8978359807/sample
